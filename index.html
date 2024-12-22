@@ -10,22 +10,26 @@
 
 <body>
     <div class="form-card">
-        <h5 class="form-header"></h5>
         <form action="">
             <fieldset>
-                <legend>User Details</legend>
-                <label for "firstname">*First Name:</label>
-                <input type="text" id="firstname" placeholder="John" required>
-                <label for "surname">*Surname:</label>
+                <h1>Sign Up</h1>
+                <label for "first-name">First Name<sup>*</sup></label>
+                <input type="text" id="first-name" placeholder="John" required>
+                <label for "surname">Surname<sup>*</sup></label>
                 <input type="text" id="surname" placeholder="Smith" required>
-                <label for "email">Email:</label>
+                <label for "email">Email</label>
                 <input type="email" id="email" placeholder="John.Smith@Somecompany.com">
-                <input type="number">
-                <input type="password">
-                <input type="password">
+                <label for "phone-number">Phone Number</label>
+                <input type="number" id="phone-number" placeholder="Enter your phone number">
+                <label for "password">Password<sup>*</sup></label>
+                <input type="password" id="password" placeholder="Password" required>
+                <label for "password-confirm">Confirm Password<sup>*</sup></label>
+                <input type="password" id="password-confirm" placeholder="Re-type password" required>
             </fieldset>
-            <button type="submit"></button>
-            <button type="reset"></button>
+            <div class="buttons-wrapper">
+                <button type="reset">Clear</button>
+                <button type="submit">Submit</button>
+            </div>
         </form>
     </div>
 </body>
