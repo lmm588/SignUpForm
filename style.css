@@ -28,11 +28,6 @@
     }
 }
 
-@media (max-width:1280px) {
-    body {overflow-y: auto !important;
-    height: 100vh;}
-}
-
 
 body {
     height: 100vh;
@@ -155,4 +150,35 @@ p:first-of-type {
 input:active {
     border: 2px solid var(--secondary-color);
     color: red;
+}
+
+
+@media (max-width:1280px) {
+    body {overflow-y: auto !important;
+    height: 100vh;}
+}
+
+@media (max-height:600px) {
+    label:nth-of-type(1n + 2) {
+        margin-top: var(--space-small);
+    }
+    form>fieldset>label {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .buttons-wrapper {
+        margin-top: var(--space-medium);
+    }
+
+    .form-card {
+        display: inline-block;
+        font-size: 0px;
+        padding-left: var(--space-small);
+        padding-right: var(--space-small);
+        padding-top: var(--space-medium);
+        padding-bottom: var(--space-medium);
+        height: fit-content;
+    }
 }
