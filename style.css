@@ -17,8 +17,7 @@
     from {
         text-shadow:
             0 0 17px var(--tertiary-color),
-            0 0 47px var(--tertiary-color),
-            0 0 107px var(--tertiary-color);
+            0 0 47px var(--tertiary-color);
     }
 
     to {
@@ -74,7 +73,7 @@ fieldset {
 
 .neon {
     animation: neonAnim 2s alternate-reverse infinite;
-    color: #c8c8c8;
+    color: white;
 }
 
 h1 {
