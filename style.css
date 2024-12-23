@@ -30,7 +30,7 @@
 }
 
 @media (max-width:1272px) {
-    body {overflow: auto !important;
+    body {overflow-y: auto !important;
     height: auto !important;}
 }
 
